@@ -641,6 +641,16 @@ For questions, suggestions, or contributions:
 
 ---
 
+## 👨‍🎓 About the Author
+
+**Mridul S Kumar**  
+Roll No: 123EC0006  
+Department of Electronics and Communication Engineering  
+B.Tech Program  
+Indian Institute of Information Technology Design and Manufacturing, Kurnool
+
+---
+
 ## ⭐ Show Your Support
 
 If you find this project helpful, please consider:
@@ -648,5 +658,7 @@ If you find this project helpful, please consider:
 - 🍴 **Forking** for your own projects
 - 📢 **Sharing** with others interested in FPGA development
 - 💬 **Contributing** improvements and bug fixes
+
+**© 2025 Mridul S Kumar. All Rights Reserved.**
 
 ---
