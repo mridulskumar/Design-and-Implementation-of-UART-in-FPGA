@@ -416,26 +416,6 @@ module uart_top #(
 
 Edit `uart_constraints.xdc` to match your board's pin configuration:
 
-```tcl
-# System Clock (100 MHz on ZedBoard)
-set_property PACKAGE_PIN Y9 [get_ports i_clk]
-set_property IOSTANDARD LVCMOS33 [get_ports i_clk]
-
-# Reset (Active-low button)
-set_property PACKAGE_PIN P16 [get_ports i_rst_n]
-set_property IOSTANDARD LVCMOS18 [get_ports i_rst_n]
-
-# UART TX/RX pins (USB-UART bridge)
-set_property PACKAGE_PIN Y19 [get_ports o_tx_serial]
-set_property PACKAGE_PIN Y18 [get_ports i_rx_serial]
-set_property IOSTANDARD LVCMOS33 [get_ports {o_tx_serial i_rx_serial}]
-
-# Timing constraints
-create_clock -period 10.000 -name sys_clk [get_ports i_clk]
-```
-
----
-
 ## 🧪 Simulation and Testing
 
 ### Running Behavioral Simulation
@@ -519,13 +499,6 @@ INFO: Simulation finished.
 
 ### Post-Implementation Results (ZedBoard Zynq-7000)
 
-| Resource Type | Used | Available | Utilization |
-|--------------|------|-----------|-------------|
-| **LUT** (Logic) | 156 | 53,200 | < 1% |
-| **FF** (Flip-Flops) | 84 | 106,400 | < 1% |
-| **IO** (I/O Pins) | 21 | 200 | 10.5% |
-| **BUFG** (Clock Buffers) | 1 | 32 | 3.1% |
-
 ### Performance Metrics
 
 - **Maximum Clock Frequency**: 200+ MHz (limited by FPGA, not design)
@@ -603,7 +576,7 @@ This project provides a solid foundation for UART communication on FPGAs. Here a
 
 ## 🙏 Acknowledgments
 
-We would like to express our gratitude to the following resources and projects that inspired and guided this implementation:
+I would like to express our gratitude to the following resources and projects that inspired and guided this implementation:
 
 ### Educational Resources
 - [Analog Devices - UART Communication Protocol](https://www.analog.com/en/resources/analog-dialogue/articles/uart-a-hardware-communication-protocol.html)
@@ -662,7 +635,7 @@ For questions, suggestions, or contributions:
 
 - ✅ **Core Implementation**: Complete
 - ✅ **Simulation Verification**: Passed
-- ❎ **Hardware Testing**: Verified on ZedBoard
+- ❌ **Hardware Testing**: Verified on ZedBoard
 - ⏳ **FIFO Integration**: Planned
 - ⏳ **Parity Support**: Planned
 - ⏳ **Multi-protocol Support**: Under consideration
