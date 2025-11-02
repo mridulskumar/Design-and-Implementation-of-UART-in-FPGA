@@ -1,6 +1,6 @@
 # 8-Bit UART Transceiver Using Verilog HDL
 
-![UART Communication](https://img.shields.io/badge/Protocol-UART-blue) ![Language](https://img.shields.io/badge/Language-Verilog-orange) ![FPGA](https://img.shields.io/badge/Platform-FPGA-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![UART Communication](https://img.shields.io/badge/Protocol-UART-blue) ![Language](https://img.shields.io/badge/Language-Verilog-orange) ![FPGA](https://img.shields.io/badge/Platform-FPGA-green)
 
 A complete implementation of an 8-bit Universal Asynchronous Receiver Transmitter (UART) communication system designed for FPGA platforms using Verilog HDL. This project demonstrates reliable full-duplex serial communication with configurable baud rates, modular design architecture, and comprehensive testing capabilities.
 
@@ -85,8 +85,8 @@ This project implements the **8N1 format**, which is the most commonly used UART
 
 ```
 Idle | Start | D0 | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Stop | Idle
-HIGH | LOW   | Data Bits (LSB first)        | HIGH | HIGH
-     └─────────────────────────────────────────────┘
+HIGH | LOW   |          Data Bits (LSB first)        | HIGH | HIGH
+     └──────────────────────────────────────────────────────┘
                     10-bit frame
 ```
 
