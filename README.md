@@ -1,4 +1,4 @@
-# 8-Bit UART Transceiver Using Verilog HDL
+# Design and Implementation of UART Based on Verilog HDL in FPGA
 
 ![UART Communication](https://img.shields.io/badge/Protocol-UART-blue) ![Language](https://img.shields.io/badge/Language-Verilog-orange) ![FPGA](https://img.shields.io/badge/Platform-FPGA-green)
 
