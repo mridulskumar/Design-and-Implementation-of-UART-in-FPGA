@@ -123,7 +123,7 @@ The **baud rate** defines the speed of data transmission, measured in bits per s
 5. **Verify Stop Bit**: Check that stop bit is HIGH; if not, frame error occurred
 6. **Output Data**: Assert data-valid signal and output the received byte
 
-![STEP-4](Reference-Pictures/Introduction-to-UART-Data-Transmission-Diagram-UART-Removes-Start-Parity-and-Stop-Bits-2.png)
+![STEP-4](Reference-Pictures/Introduction-to-UART-Data-Transmission-Diagram-UART-Removes-Start-Parity-and-Stop-Bits-2.webp)
 ![STEP-5](Reference-Pictures/Introduction-to-UART-Data-Transmission-Diagram-Receiving-UART-Sends-Byte-to-Data-Bus-2-600x629.png)
 
 #### Oversampling:
