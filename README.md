@@ -361,30 +361,29 @@ DIVISOR = CLK_FREQ / (BAUD_RATE × 16)
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/uart-verilog-fpga.git
-cd uart-verilog-fpga
+git clone https://github.com/mridulskumar/Design-and-Implementation-of-UART-Based-on-Verilog-HDL-in-FPGA.git
+cd Design-and-Implementation-of-UART-Based-on-Verilog-HDL-in-FPGA
 ```
 
 #### 2. Project Structure
 
 ```
-uart-verilog-fpga/
+Design-and-Implementation-of-UART-Based-on-Verilog-HDL-in-FPGA/
 │
-├── src/                      # Source files
+├── RTL-Codes/                      # Source files
 │   ├── baud_gen.v           # Baud rate generator
 │   ├── uart_tx.v            # UART transmitter
 │   ├── uart_rx.v            # UART receiver
 │   └── uart_top.v           # Top-level integration
 │
-├── sim/                      # Simulation files
+├── Testbench/                      # Simulation files
 │   └── uart_tb.v            # Testbench
 │
-├── constraints/              # Constraint files
+├── Constraints/              # Constraint files
 │   └── uart_constraints.xdc # Pin assignments and timing
-│
-├── docs/                     # Documentation
-│   └── project_report.pdf   # Detailed project report
-│
+│ 
+├── Reference-Pictures/      
+│   
 └── README.md                 # This file
 ```
 
