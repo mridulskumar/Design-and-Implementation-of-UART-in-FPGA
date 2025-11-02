@@ -624,28 +624,9 @@ This project provides a solid foundation for UART communication on FPGAs. Here a
 
 ---
 
-## 👥 Contributors
-
-This project was developed as part of a comprehensive study on Digital Design and Embedded System Design.
-
-**Team Members**:
-- **Subhadip Ghanta**
-- **Adwitiyo Bera**
-- **Sanket Shaw**
-- **Disipsha Guha**
-
----
-
 ## 🙏 Acknowledgments
 
 We would like to express our gratitude to the following resources and projects that inspired and guided this implementation:
-
-### Similar GitHub Projects
-- [cp024s/UART](https://github.com/cp024s/UART) - Comprehensive UART Verilog implementation
-- [ben-marshall/uart](https://github.com/ben-marshall/uart) - Simple and well-documented UART in Verilog
-- [eshansurendra/UART-FPGA](https://github.com/eshansurendra/UART-FPGA) - FPGA UART with detailed documentation
-- [hell03end/verilog-uart](https://github.com/hell03end/verilog-uart) - Minimalist 8-bit UART implementation
-- [jakubcabal/uart-for-fpga](https://github.com/jakubcabal/uart-for-fpga) - Advanced UART with FIFO support
 
 ### Educational Resources
 - [Analog Devices - UART Communication Protocol](https://www.analog.com/en/resources/analog-dialogue/articles/uart-a-hardware-communication-protocol.html)
@@ -704,7 +685,7 @@ For questions, suggestions, or contributions:
 
 - ✅ **Core Implementation**: Complete
 - ✅ **Simulation Verification**: Passed
-- ✅ **Hardware Testing**: Verified on ZedBoard
+- ❎ **Hardware Testing**: Verified on ZedBoard
 - ⏳ **FIFO Integration**: Planned
 - ⏳ **Parity Support**: Planned
 - ⏳ **Multi-protocol Support**: Under consideration
@@ -720,5 +701,3 @@ If you find this project helpful, please consider:
 - 💬 **Contributing** improvements and bug fixes
 
 ---
-
-**Happy Coding! 🚀**
