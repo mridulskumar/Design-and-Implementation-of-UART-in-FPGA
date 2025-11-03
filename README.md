@@ -457,6 +457,8 @@ INFO: Receiver has asserted 'rx_valid'.
 INFO: Simulation finished.
 ```
 
+### Waveforms
+
 ![Before](Results/Waveform_Before.png)
 ![After](Results/Waveform_After.png)
 
@@ -468,11 +470,21 @@ INFO: Simulation finished.
 2. **Run Implementation**: Click "Run Implementation"
 3. **Generate Bitstream**: Click "Generate Bitstream"
 
+### Schematics
+
 ![After](Results/Implementation.png)
 ![After](Results/Elaborate.png)
+
+### Device
 ![After](Results/Device.png)
 ![After](Results/Device_2.png)
+
+### Package
+
 ![After](Results/Package.png)
+
+### Power
+
 ![After](Results/Power.png)
 
 #### 2. Program FPGA
