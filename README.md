@@ -1,6 +1,7 @@
 # Design and Implementation of UART Based on Verilog HDL in FPGA
 
-![UART Communication](https://img.shields.io/badge/Protocol-UART-blue) ![Language](https://img.shields.io/badge/Language-Verilog-orange) ![FPGA](https://img.shields.io/badge/Platform-FPGA-green) ![VLSI](https://img.shields.io/badge/Category-VLSI-red)
+![UART Communication](https://img.shields.io/badge/Protocol-UART-blue) ![Language](https://img.shields.io/badge/Language-Verilog-orange) ![FPGA](https://img.shields.io/badge/Platform-FPGA-green) ![VLSI](https://img.shields.io/badge/Category-VLSI-red) ![Vivado](https://img.shields.io/badge/Tool-Vivado-yellow)
+
 
 
 A complete implementation of an 8-bit Universal Asynchronous Receiver Transmitter (UART) communication system designed for FPGA platforms using Verilog HDL. This project demonstrates reliable full-duplex serial communication with configurable baud rates, modular design architecture, and comprehensive testing capabilities.
